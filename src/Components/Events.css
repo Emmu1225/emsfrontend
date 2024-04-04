@@ -1,0 +1,30 @@
+#event-card{
+    background-color: whitesmoke;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     /* Optional: This centers the card vertically on the screen */
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Adjust height as needed */
+  }
+  
+  .card {
+    border: 2px solid black; /* Add border styling */
+    border-radius: 8px; /* Add border radius if needed */
+    /* Add any additional styling for the card if needed */
+  }
+  
+  
