@@ -6,6 +6,7 @@ import { Box, Button, TextField, Typography, Container, Grid, CssBaseline, Avata
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Section from './Section';
+import Navbar2 from './Navbar2';
 
 const theme = createTheme();
 
@@ -60,7 +61,7 @@ const Task = () => {
   return (
     
     <div className='row'>
-      <Navbar1/>
+      <Navbar2/>
       <div className="col-3 col-md-3">
         <Section/>
       </div>
