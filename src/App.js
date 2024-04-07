@@ -15,6 +15,7 @@ import EventEmployee from './Components/Eventemployee';
 import LeaveEmployee from './Components/LeaveEmployee';
 import Taskemployee from './Components/Taskemployee';
 import Section from './Components/Section';
+import Section1 from './Components/Section1';
 
 
 
@@ -41,7 +42,7 @@ function App() {
           <Route path="/taskemployee" element={<Taskemployee />} />
           <Route path='/section' element={<Section/>}/>
         <Route path="/feedback" element={<Feedback />} />
-        
+        <Route path='/section1' element={<Section1/>}/>
         </Routes>
       </div>
     </Router>
